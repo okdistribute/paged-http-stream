@@ -1,0 +1,17 @@
+{
+  "name": "paged-http-stream",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Karissa McKelvey <karissa@karissamck.com> (http://karissamck.com/)",
+  "license": "ISC",
+  "dependencies": {
+    "concat-stream": "^1.5.0",
+    "debug": "^2.2.0",
+    "event-stream": "^3.3.1",
+    "got": "^4.2.0"
+  }
+}
