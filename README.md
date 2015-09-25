@@ -2,6 +2,10 @@
 
 Turn a paged http request into a stream of pages.
 
+```
+npm install paged-http-stream
+```
+
 ## API
 
 ### `var pages = pager(opts, next)`
