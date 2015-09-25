@@ -13,6 +13,7 @@ npm install paged-http-stream
 Options:
 
 `method`: defaults to GET
+
 `uri`: the url to query. includes query string.
 ... and anything else that can be passed to [got](http://npmjs.org/got)
 
