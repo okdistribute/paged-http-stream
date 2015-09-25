@@ -1,13 +1,13 @@
 {
   "name": "paged-http-stream",
   "version": "1.0.0",
-  "description": "",
+  "description": "Turn a paged http request into a stream of pages.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Karissa McKelvey <karissa@karissamck.com> (http://karissamck.com/)",
-  "license": "ISC",
+  "license": "BSD",
   "dependencies": {
     "concat-stream": "^1.5.0",
     "debug": "^2.2.0",
