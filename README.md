@@ -40,7 +40,7 @@ function next (data) {
     search_for: 'this is my query',
     page: parseInt(data.page_nr + 1) || 1 // get the next page
   }
-  return getOpts(querystring)
+  return getOpts(query)
 }
 
 function getOpts (query) {
@@ -53,7 +53,6 @@ function getOpts (query) {
 
 Then, pass to the pager:
 ```js
-var startingOpts = {}
 var pageStream = pager(startingOpts, next)
 ```
 
