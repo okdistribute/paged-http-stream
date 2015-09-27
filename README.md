@@ -1,6 +1,6 @@
 # paged-http-stream
 
-Turn a paged http request into a stream of pages.
+Turn a paged http request into a stream of pages. Focuses on simplicity and modularity. Doesn't try to assume anything. You must implement a 'next' function that returns the next request based upon the previous one.
 
 ```
 npm install paged-http-stream
@@ -15,11 +15,14 @@ Options:
 `method`: defaults to GET
 
 `uri`: the url to query. includes query string.
-... and anything else that can be passed to [got](http://npmjs.org/got)
+
+... and anything else that can be passed to a typical node.js http request (uses [got](http://npmjs.org/got))
 
 ### `next = function (data)`
 
 You need to implement the `next` function, which be able to interpret the data from the previous request, passed in as an argument, into a new request.
+
+## Example
 
 For example, [figshare](http://figshare.com) returns each of their search pages like this:
 ```json
