@@ -1,6 +1,6 @@
 {
   "name": "paged-http-stream",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Turn a paged http request into a stream of pages.",
   "main": "index.js",
   "scripts": {
